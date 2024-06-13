@@ -64,7 +64,7 @@
     ```
 2. restart docker daemon
 ```
-   systemctl restart docker.service
+systemctl daemon-reload && systemctl restart docker.service
 ```
 
 **Enjoy yourself!**
